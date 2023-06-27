@@ -1,0 +1,1 @@
+# Primeira parte dos exercicios de fundamentos, seção 2, dia 3.
