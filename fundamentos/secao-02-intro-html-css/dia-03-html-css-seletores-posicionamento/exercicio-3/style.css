@@ -1,0 +1,21 @@
+* {
+    align-items: center;
+}
+
+h1, p {
+    text-align: center;
+}
+
+li:hover {
+    background-color: violet;
+}
+
+li:active {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ol, ul {
+    list-style: none;
+    text-align: center;
+}
+

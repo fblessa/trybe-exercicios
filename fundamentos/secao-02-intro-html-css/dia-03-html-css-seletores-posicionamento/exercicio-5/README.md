@@ -1,0 +1,1 @@
+# Fundamentos, seção 2, dia 3, exercicio 5;
