@@ -1,0 +1,1 @@
+## Exercicio Fundamentos, seção 2, dia 04
