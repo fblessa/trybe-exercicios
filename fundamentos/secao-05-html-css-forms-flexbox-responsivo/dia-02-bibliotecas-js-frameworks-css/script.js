@@ -80,6 +80,6 @@ validate
     })
     const agreement = document.querySelector('#agreement');
     agreement.addEventListener('change', () => {
-      submitBtn.disabled = !agreement.checked;
+      submitBtn.disabled = false;
     })
   }
