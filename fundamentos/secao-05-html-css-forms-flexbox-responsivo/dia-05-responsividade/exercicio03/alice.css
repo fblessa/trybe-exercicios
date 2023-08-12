@@ -1,0 +1,157 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+/* layout pequeno */
+@media (max-width: 600px) { 
+  header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  header p {
+    margin-left: 4%;
+  }
+  header nav {
+    width: 100%;
+  }
+  header nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
+  aside {
+    width: 50%;
+  }
+  .aside-container {
+    display: flex;
+    justify-content: center;
+  }
+  .aside-container h2 {
+    margin-left: 25%;
+  }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-content p {
+    width: 85%;
+    font-size: 18px;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .last {
+    margin: 10px 0 20px 20px;
+  }
+}
+
+/* layout medio */
+@media (max-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  header nav {
+    width: 50%;
+    display: flex;
+  }
+  header nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .aside-container {
+    display: flex;
+  }
+  .aside-one {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  .aside-two {
+    width: 50%;
+  }
+  aside h2 {
+    margin-left: 25%;
+  }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-content p {
+    width: 85%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .last {
+    margin: 10px 0 20px 20px;
+  }
+}
+
+/* layout grande */
+@media (min-width: 1000px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    font-size: 22px;
+  }
+  header {
+    display: flex;
+    justify-content: center;
+  }
+  header nav {
+    width: 50%;
+    display: flex;
+  }
+  header nav ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+  }
+  .aside-container {
+    display: flex;
+  }
+  .aside-one {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+  .aside-two {
+    width: 50%;
+  }
+  aside h2 {
+    margin-left: 25%;
+  }
+  .main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-content p {
+    width: 85%;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .last {
+    margin: 10px 0 20px 20px;
+  }
+}
