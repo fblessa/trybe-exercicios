@@ -1,0 +1,21 @@
+{
+  "name": "gerador-de-senhas",
+  "version": "1.0.0",
+  "description": "Melhor Gerador de Senhas",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "dev": "vite --open",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@trybe/eslint-config-frontend": "^1.11.4",
+    "clipboard-copy": "^4.0.1",
+    "nanoid": "^4.0.2",
+    "vite": "^4.4.9"
+  },
+  "type": "module"
+}
