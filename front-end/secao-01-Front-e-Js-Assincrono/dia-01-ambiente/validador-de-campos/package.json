@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build": "vite build",
     "lint": "eslint ./src",
     "dev": "vite --open",
     "test": "echo \"Error: no test specified\" && exit 1"
